@@ -1,0 +1,138 @@
+body{
+    
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.gamename{
+    font-size: 60px;
+    font-weight: 1100;
+    font-style: italic;
+    color:gold;
+}
+.gamename:hover{
+  color: white;
+}
+.heading2{
+    font-weight: 900;
+    font-size: 32px;
+    color:gold;
+}
+.heading2:hover{
+    color: white;
+}
+.btn{
+    width: 200px;
+    height: 200px;
+    border-radius: 20%;
+    border: 10px solid black;
+    margin: 1rem;
+}
+
+.btn-container{
+
+    display: flex;
+    justify-content: center;
+}
+.red{
+    background-color: #d95980;
+    transform:
+    rotate3d(.5,-.866,0,15deg)
+    rotate(1deg);
+  box-shadow:
+    2em 4em 6em -2em rgba(0,0,0,.5),
+    1em 2em 3.5em -2.5em rgba(0,0,0,.5);
+  transition:
+    transform .4s ease,
+    box-shadow .4s ease;
+  border-radius: .5em;
+
+  &:hover {
+    transform:
+      rotate3d(0,0,0,0deg)
+      rotate(0deg);
+      border: 12px solid black;
+  }
+
+}
+.green{
+background-color: #63aac0;
+transform:
+rotate3d(.5,-.866,0,15deg)
+rotate(1deg);
+box-shadow:
+2em 4em 6em -2em rgba(0,0,0,.5),
+1em 2em 3.5em -2.5em rgba(0,0,0,.5);
+transition:
+transform .4s ease,
+box-shadow .4s ease;
+border-radius: .5em;
+
+&:hover {
+transform:
+  rotate3d(0,0,0,0deg)
+  rotate(0deg);
+  border: 12px solid black;
+}
+}
+.yellow{
+    background-color: #f99b45;
+    border-radius: 82px;
+    transform:
+    rotate3d(.5,-.866,0,15deg)
+    rotate(1deg);
+  box-shadow:
+    2em 4em 6em -2em rgba(0,0,0,.5),
+    1em 2em 3.5em -2.5em rgba(0,0,0,.5);
+  transition:
+    transform .1s ease,
+    box-shadow 1s ease;
+  border-radius: .5em;
+
+  &:hover {
+    transform:
+      rotate3d(0,0,0,0deg)
+      rotate(0deg);
+      border: 12px solid black;
+  }
+
+}
+.purple{
+background-color: #89ff98;
+transform:
+rotate3d(.5,-.866,0,15deg)
+rotate(1deg);
+box-shadow:
+2em 4em 6em -2em rgba(0,0,0,.5),
+1em 2em 3.5em -2.5em rgba(0,0,0,.5);
+transition:
+transform .4s ease,
+box-shadow .4s ease;
+border-radius: .5em;
+
+&:hover {
+transform:
+  rotate3d(0,0,0,0deg)
+  rotate(0deg);
+  border: 12px solid black;
+}
+}
+.flash{
+   background-color: white; 
+}
+.userflash{
+   background-color: green; 
+}
+.back-video{
+    width:100% ;
+    height: 100%;
+    filter: blur(8px);
+    object-fit:cover;
+    overflow:hidden;
+    /* transform: scale(1.1); */
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -2;
+}
