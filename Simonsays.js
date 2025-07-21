@@ -125,16 +125,16 @@ function reset() {
     level = 0;
 }
 
-document.addEventListener("DOMContentLoaded", function() {
-    const music = document.getElementById("background-music");
-    music.play().catch(function(error) {
-        console.log("Autoplay was prevented. Trying to play again with user interaction.");
-    });
+// document.addEventListener("DOMContentLoaded", function() {
+//     const music = document.getElementById("background-music");
+//     music.play().catch(function(error) {
+//         console.log("Autoplay was prevented. Trying to play again with user interaction.");
+//     });
 
-    document.addEventListener("click", function() {
-        music.play();
-    });
-});
+//     document.addEventListener("click", function() {
+//         music.play();
+//     });
+// });
 
 
 
@@ -175,3 +175,4 @@ gsap.from(".gamename",{
     stagger:1,
 
 })
+
