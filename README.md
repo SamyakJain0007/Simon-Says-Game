@@ -4,7 +4,7 @@ Relive the classic challenge: memorize and repeat the sequence—but with cool v
 
 🚀 Live Demo
 Play it here: Simon Says Game – Deployed Link
-(Add your deployed link or GitHub Pages link here)
+https://samyakjain0007.github.io/Simon-Says-Game/
 
 
 ✨ Features
